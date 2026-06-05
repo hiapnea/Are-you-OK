@@ -1,62 +1,56 @@
-# Are-you-OK
-# 阿油 OK (Are you OK?)
+# Are you OK? (阿油 OK)
 
-[![App Store](https://img.shields.io/badge/App_Store-下载-0D96F6?logo=app-store)](https://apps.apple.com/cn/app/%E9%98%BF%E6%B2%B9ok/id6752334239)
+[![App Store](https://img.shields.io/badge/App_Store-Download-0D96F6?logo=app-store)](https://apps.apple.com/cn/app/%E9%98%BF%E6%B2%B9ok/id6752334239)
 [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20iPhone-000000?logo=apple)](https://apps.apple.com/cn/app/%E9%98%BF%E6%B2%B9ok/id6752334239)
+[![Language](https://img.shields.io/badge/README-English-blue)](./README.md) 
+[![Language](https://img.shields.io/badge/README-中文-red)](./README_CN.md)
 
-**阿油 OK** 是一款专注于**独居长辈睡眠呼吸安全**的 iOS App。它通过智能算法识别睡眠中的呼吸暂停风险，并支持家人数据同步，让你能远程守护长辈的夜间安眠。
+**Are you OK?** is an iOS App designed for **sleep respiratory safety of elderly living alone**. It uses intelligent algorithms to identify potential breathing pauses during sleep and supports **family data synchronization**, allowing you to protect your loved ones remotely.
 
-> 💡 本项目为 [黑客松名称] 参赛作品，旨在用技术缩短关爱距离，让“独居”不意味“无人问津”。
+> 💡 This project is a hackathon entry, aimed at shortening the distance of care through technology.
 
-## ✨ 核心功能
+## ✨ Key Features
 
-| 功能模块 | 说明 |
-|---------|------|
-| 🛑 呼吸暂停提醒 | 夜间自动识别潜在呼吸暂停事件，及时记录并推送提醒 |
-| 📊 智能睡眠记录 | 分析睡眠结构，输出总时长、深睡比例、醒来次数等报告 |
-| 📈 历史趋势图表 | 保存每次睡眠报告，形成健康变化趋势，一目了然 |
-| 👨‍👩‍👧 家人数据同步 | **独家特色**：长辈睡眠报告自动同步至家人手机，无需反复询问 |
-| 🔔 异常状态通知 | 发现夜间异常状况时，第一时间通知紧急联系人 |
-| 👵 长辈模式 | 超大字体 + 极简信息，长辈也能轻松查看 |
+| Feature | Description |
+|---------|-------------|
+| 🛑 Apnea Alert | Automatically identifies potential breathing pauses at night, records and pushes reminders |
+| 📊 Smart Sleep Tracking | Analyzes sleep structure, outputs total duration, deep sleep ratio, wake-up times |
+| 📈 Historical Trends | Saves every sleep report, forms health trend charts |
+| 👨‍👩‍👧 Family Sync | **Exclusive**: Sleep reports auto-sync to family members' phones |
+| 🔔 Abnormal Alert | Immediately notifies emergency contacts when abnormalities are detected |
+| 👵 Senior Mode | Large fonts + minimalist interface, easy for elders to use |
 
-## 📱 下载与体验
+## 📱 Download
 
 [![App Store](./assets/app-store-badge.svg)](https://apps.apple.com/cn/app/%E9%98%BF%E6%B2%B9ok/id6752334239)
 
-**兼容要求**：iOS 13.0 或更高版本（iPhone）
+**Compatibility**: iOS 13.0 or later (iPhone)
 
-## 🧩 技术实现（选填，根据实际情况调整）
+## 📸 Screenshots
 
-> 以下为示例，请根据你实际使用的技术栈修改。
+| Sleep Report | Family Sync | Senior Mode |
+|:---:|:---:|:---:|
+| ![Sleep Report](./assets/screenshot1.png) | ![Family Sync](./assets/screenshot2.png) | ![Senior Mode](./assets/screenshot3.png) |
 
-- **前端**：Swift / SwiftUI (iOS原生)
-- **数据同步**：CloudKit / 自定义API
-- **睡眠分析算法**：[可简要说明，如：基于加速度计与麦克风数据的事件检测模型]
-- **通知服务**：APNs
+*Replace the image files above with your own screenshots. Recommended naming: `screenshot1.png`, `screenshot2.png`, `screenshot3.png` inside `assets/` folder.*
 
-## 📖 隐私与安全
+## 🔒 Privacy & Security
 
-- 数据收集遵循最小必要原则，详见[隐私政策](http://www.hiapnea.com/resource/privacyPolicy.html)
-- 用户健康数据不关联个人身份信息
-- 订阅模式支持连续包月/季/年及终身会员（创始会员限量）
+- Data collection follows minimal necessity principle. See [Privacy Policy](http://www.hiapnea.com/resource/privacyPolicy.html)
+- Health data is **not linked** to personal identity
+- Subscription options: monthly, quarterly, yearly, and lifetime (limited founding members)
 
-## ⚠️ 医疗免责声明
+## ⚠️ Medical Disclaimer
 
-本App及提供的数据仅供**个人健康管理参考**，不能替代专业医疗诊断。如有健康问题，请咨询合格医疗专业人员。
+This App and its data are for **personal health management reference only** and cannot replace professional medical diagnosis. Please consult qualified medical professionals for any health concerns.
 
-## 🗺️ 项目路线图（黑客松后计划）
+## 🗺️ Roadmap (Post-Hackathon)
 
-- [ ] 增加鼾声分析与音频报告
-- [ ] 支持Apple Watch端直接检测
-- [ ] 开发家人端独立Widget
-- [ ] 接入更多健康数据（心率、血氧等，需硬件支持）
+- [ ] Snore analysis and audio reports
+- [ ] Apple Watch standalone detection
+- [ ] Family-side widgets
+- [ ] Integration with more health data (heart rate, blood oxygen)
 
-## 🤝 团队
+## 📄 License
 
-- **开发者**：[] – [GitHub/邮箱]
-- **产品/设计**：[如有]
-- **特别感谢**：所有参与内测的长辈与家人
-
-## 📄 许可证
-
-本项目代码部分采用 [MIT](LICENSE) 许可证（如未上传LICENSE文件，可改为“暂未开源，欢迎体验App”）。
+This project is **not open source**. The App is available for download via the [App Store](https://apps.apple.com/cn/app/%E9%98%BF%E6%B2%B9ok/id6752334239). All rights reserved.
