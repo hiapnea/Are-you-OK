@@ -5,6 +5,8 @@
 [![Language](https://img.shields.io/badge/README-English-blue)](./README.md) 
 [![Language](https://img.shields.io/badge/README-中文-red)](./README_CN.md)
 
+> **🇬🇧 English version**：[Click here](./README.md) | **🇨🇳 中文版本** (当前)
+
 **阿油 OK** 是一款专注于**独居长辈睡眠呼吸安全**的 iOS App。它通过智能算法识别睡眠中的呼吸暂停风险，并支持家人数据同步，让你能远程守护长辈的夜间安眠。
 
 > 💡 本项目为黑客松参赛作品，旨在用技术缩短关爱距离。
