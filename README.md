@@ -5,6 +5,8 @@
 [![Language](https://img.shields.io/badge/README-English-blue)](./README.md) 
 [![Language](https://img.shields.io/badge/README-中文-red)](./README_CN.md)
 
+**🇨🇳 中文版本**：[点击查看](./README_CN.md) | **🇬🇧 English** (current)
+
 **Are you OK?** is an iOS App designed for **sleep respiratory safety of elderly living alone**. It uses intelligent algorithms to identify potential breathing pauses during sleep and supports **family data synchronization**, allowing you to protect your loved ones remotely.
 
 > 💡 This project is a hackathon entry, aimed at shortening the distance of care through technology.
