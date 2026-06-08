@@ -9,8 +9,6 @@
 
 **Are you OK?** is an iOS App designed for **sleep respiratory safety of elderly living alone**. It uses intelligent algorithms to identify potential breathing pauses during sleep and supports **family data synchronization**, allowing you to protect your loved ones remotely.
 
-> 💡 This project is a hackathon entry, aimed at shortening the distance of care through technology.
-
 ## ✨ Key Features
 
 | Feature | Description |
@@ -34,7 +32,6 @@
 |:---:|:---:|:---:|
 | ![Sleep Report](./assets/screenshot1.png) | ![Family Sync](./assets/screenshot2.png) | ![Senior Mode](./assets/screenshot3.png) |
 
-*Replace the image files above with your own screenshots. Recommended naming: `screenshot1.png`, `screenshot2.png`, `screenshot3.png` inside `assets/` folder.*
 
 ## 🔒 Privacy & Security
 
@@ -46,7 +43,7 @@
 
 This App and its data are for **personal health management reference only** and cannot replace professional medical diagnosis. Please consult qualified medical professionals for any health concerns.
 
-## 🗺️ Roadmap (Post-Hackathon)
+## 🗺️ Roadmap 
 
 - [ ] Snore analysis and audio reports
 - [ ] Apple Watch standalone detection
